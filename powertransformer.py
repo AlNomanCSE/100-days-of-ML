@@ -12,7 +12,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 from sklearn.preprocessing import PowerTransformer
 
-df = pd.read_csv("/content/concrete_data.csv")
+df = pd.read_csv("concrete_data.csv")
 df.describe()
 
 X = df.drop(columns=["Strength"])
